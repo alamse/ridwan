@@ -258,6 +258,12 @@ a,
   transition: all 0.2s ease-out;
 }
 
+.marquee-inner.to-left:hover {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
 @keyframes marqueeTop {
   0% {
     top: 0;
