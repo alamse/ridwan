@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
@@ -9,12 +9,12 @@ import TheWelcome from "./components/TheWelcome.vue";
       alt="Bejo"
       class="logo"
       src="./assets/ridwan.png"
-      width="125"
-      height="125"
+      width="128"
+      height="128"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Daebakkkk!" />
+      <!-- <HelloWorld msg="Daebakkkk!" /> -->
       <div class="flex-container">
         <div class="time-unite created" v-show="days">
           <div class="time-unite-title">Days</div>
