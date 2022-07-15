@@ -233,7 +233,7 @@ a,
 }
 .marquee-wrapper .marquee-block {
   width: 100%;
-  height: 5000px;
+  height: 6000px;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -242,7 +242,7 @@ a,
 }
 .marquee-inner {
   display: block;
-  height: 250%;
+  height: 300%;
   /* width: 400px; */
   position: absolute;
   padding-left: 25px;
