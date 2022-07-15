@@ -58,7 +58,7 @@ blockquote span {
 }
 
 .blur {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
 }
 </style>
