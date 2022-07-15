@@ -16,7 +16,7 @@ import TheWelcome from "./components/TheWelcome.vue";
     <div class="wrapper">
       <!-- <HelloWorld msg="Daebakkkk!" /> -->
       <div class="flex-container">
-        <div class="time-unite created" v-show="days">
+        <div class="time-unite created">
           <div class="time-unite-title">Days</div>
           <div class="time-unite-value">{{ days }}</div>
         </div>
@@ -242,7 +242,7 @@ a,
 }
 .marquee-inner {
   display: block;
-  height: 200%;
+  height: 250%;
   /* width: 400px; */
   position: absolute;
   padding-left: 25px;
